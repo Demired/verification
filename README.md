@@ -11,5 +11,5 @@ cd verification
 
 docker build .
 
-docker run -itd xxxxxxxxxxxxx
+docker run -itd -p 80:80 xxxxxxxxxxxxx
 ```
