@@ -9,7 +9,7 @@ git clone git@github.com:Demired/verification.git
 
 cd verification
 
-docker build .
+docker build -t verification .
 
-docker run -itd -p 80:80 xxxxxxxxxxxxx
+docker run -itd -p 80:80 verification
 ```
